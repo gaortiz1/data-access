@@ -1,9 +1,0 @@
-com\bigeye\neo4j\classloader\ConfigResolver.class
-com\bigeye\neo4j\configuration\Neo4jConfiguration.class
-com\bigeye\neo4j\context\Neo4jContext.class
-com\bigeye\neo4j\api\Neo4jRepository.class
-com\bigeye\neo4j\service\ConfigurationService.class
-com\bigeye\neo4j\convert\UUIDConverter.class
-com\bigeye\neo4j\service\PackageService.class
-com\bigeye\neo4j\classloader\PackageResolver.class
-com\bigeye\neo4j\repositories\AbstractNeo4jRepository.class

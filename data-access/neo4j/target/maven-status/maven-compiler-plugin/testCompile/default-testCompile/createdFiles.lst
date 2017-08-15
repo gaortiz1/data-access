@@ -1,8 +1,0 @@
-com\bigeye\neo4j\classloader\TestConfigResolver.class
-com\bigeye\neo4j\configuration\TestNeo4jConfiguration.class
-com\bigeye\neo4j\repositories\TestMovieRepository.class
-com\bigeye\neo4j\repositories\MovieRepository.class
-com\bigeye\neo4j\entity\Movie.class
-com\bigeye\neo4j\entity\Person.class
-com\bigeye\neo4j\entity\Role.class
-com\bigeye\neo4j\classloader\TestPackageResolver.class
