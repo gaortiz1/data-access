@@ -1,5 +1,7 @@
-package com.eyebox.neo4j.classloader;
+package com.eyebox.neo4j.test.classloader;
 
+
+import com.eyebox.neo4j.classloader.PackageResolver;
 
 import java.util.Collections;
 import java.util.Set;

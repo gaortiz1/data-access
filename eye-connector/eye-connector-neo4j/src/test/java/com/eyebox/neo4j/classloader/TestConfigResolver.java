@@ -2,6 +2,7 @@ package com.eyebox.neo4j.classloader;
 
 
 public class TestConfigResolver implements ConfigResolver {
+
     @Override
     public String getDriverClassName() {
         return "org.neo4j.ogm.drivers.bolt.driver.BoltDriver";

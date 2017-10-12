@@ -5,10 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.eyebox</groupId>
-    <artifactId>data-access</artifactId>
+    <artifactId>eye-connector</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>neo4j</module>
+        <module>eye-connector-neo4j</module>
+        <module>eye-connector-neo4j-test</module>
     </modules>
     <packaging>pom</packaging>
 
