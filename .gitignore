@@ -67,3 +67,7 @@ $RECYCLE.BIN/
 .project
 .settings/
 target/
+
+#intellij
+*.iml
+.idea/
