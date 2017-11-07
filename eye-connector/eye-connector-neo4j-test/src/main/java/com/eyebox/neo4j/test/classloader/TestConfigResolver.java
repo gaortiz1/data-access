@@ -21,6 +21,6 @@ public class TestConfigResolver implements ConfigResolver {
 
     @Override
     public String getURI() {
-        return "bolt://localhost";
+        return "file:///var/tmp/neo4j.db";
     }
 }

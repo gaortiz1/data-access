@@ -2,7 +2,6 @@ package com.eyebox.neo4j.test;
 
 
 import com.eyebox.neo4j.configuration.Neo4jConfiguration;
-
 import com.eyebox.neo4j.test.config.TestNeo4jConfig;
 import com.eyebox.neo4j.test.entity.Movie;
 import com.eyebox.neo4j.test.entity.Person;

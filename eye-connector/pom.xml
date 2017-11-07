@@ -30,11 +30,38 @@
         <google.guava>23.0</google.guava>
         <validation.api>2.0.0.Final</validation.api>
         <junit.version>4.12</junit.version>
+        <neo4j.version>3.0.1</neo4j.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
+            <!-- neo4j -->
+            <dependency>
+                <groupId>org.neo4j</groupId>
+                <artifactId>neo4j-ogm-core</artifactId>
+                <version>${neo4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.neo4j</groupId>
+                <artifactId>neo4j-ogm-api</artifactId>
+                <version>${neo4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.neo4j</groupId>
+                <artifactId>neo4j-ogm-bolt-driver</artifactId>
+                <version>${neo4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.neo4j</groupId>
+                <artifactId>neo4j-ogm-embedded-driver</artifactId>
+                <version>${neo4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.neo4j</groupId>
+                <artifactId>neo4j</artifactId>
+                <version>3.3.0</version>
+            </dependency>
             <!-- Spring -->
             <dependency>
                 <groupId>org.springframework.data</groupId>
@@ -77,11 +104,6 @@
                 <version>${spring.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
-                <version>${spring.boot}</version>
-            </dependency>
             <dependency>
                 <groupId>org.springframework.hateoas</groupId>
                 <artifactId>spring-hateoas</artifactId>
